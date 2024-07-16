@@ -112,3 +112,9 @@ const guest = document.querySelector(".hero h4 span");
 guest.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ",");
 
 document.querySelector("#nama").value = nama;
+
+// Animate on Scroll
+AOS.init({
+    once: true,
+    duration: 1000
+});
